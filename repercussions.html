@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Eagle+Lake" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Walter+Turncoat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Delius" rel="stylesheet">
+	<style>
+	div#wrapperHeader {
+	width:100%;
+	height;auto; 
+	background:url(ee.png) no-repeat;
+	text-align:center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+    background-size: cover;
+}
+div#wrapperHeader div#header {
+	width:100%;
+	height:500px;
+	margin:0 auto;
+}
+body {
+    font-family: 'Rubik', sans-serif;
+	;font-size: 22px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+   float: left;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 24px
+    border-right:1px solid #bbb;
+}
+li:last-child {
+    border-right: none;
+}
+li a {
+   display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	text-size: 50px;
+}
+li a:hover {
+     background-color: #990000;
+}
+li.MartialLaw {
+    display: inline-block;
+}
+.martiallaw-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.martiallaw-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.martiallaw-content a:hover {background-color: #f1f1f1}
+.MartialLaw:hover .martiallaw-content {
+    display: block;
+}
+	
+		h1 {
+			font-family: 'Eagle Lake', cursive;
+			left: 25%;
+			text-transform: uppercase;
+			text-align: center;
+			font-size: 30px;
+		}
+		h2 {
+			font-family: 'Walter Turncoat', cursive;
+			font-size: 27px;
+			text-align:left;
+			text-align:justify;
+			color:black;
+		}
+		
+		p {
+			font-family: 'Delius', cursive;
+			font-size: 20px;
+			text-align:left;
+			text-align:justify;
+			text-indent: 50px;
+			color:black;
+			line-height: 30px;
+	
+		}
+		* {box-sizing:border-box}
+.mySlides {display:none}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+   padding: 16px;
+  position: relative;
+  margin: auto;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+	</style>
+		<title> BIOGRAPHY </title>
+	</head>
+	<body style="background-color:#D3D3D3;">
+<div id="wrapperHeader">
+ <div id="header">
+ </div> 
+</div>
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="marcos.html">Marcos</a></li>
+  <li><a href="martiallaw.html">Martial Law</a></li>
+  <li><a class="active" href="repercussion.html">Repercussion</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="about.html">About</a></li>
+	   </div>
+	</li>
+</ul>
+	<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="5.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="4.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="2.jpg" style="width:100%">
+  <div class="text"> </div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+		<h1> Repercussions </h1>
+		<p>The concept of a ‘golden age’ under the Marcos administration, especially during its latter years, is nothing but a ruse and an illusion. 
+Thirty years have passed since the first EDSA Revolution, and many myths about the Marcos regime are intentionally being floated around, ensnaring in particular today’s youth.
+Above all, the most alarming thing is the erroneous thought that the Marcos era opened the floodgates for a ‘golden age’ of the Philippines, particularly the economy.
+For the newer generations with almost no means of reliving and recalling the brutality of the Martial Law days and the economic bumps it brought, perhaps one of the best ways of being enlightened on the Marcos economy is by reconsidering the data given.
+</p>
+		<h2>We lost two decades of development</h2>
+			<p> This severe retrogression of Filipinos’ income per person- called “lost decades of development”- is testament to a truly dark era in our economic history. It took the country an entire generation to recover from the outcomes and consequences of the Marcos era’s economic management and policies. Even with the data alone, it is difficult to understand why many people hold on to the idea that the Marcos era, taken as a whole, ushered in the Philippine economy’s “golden age”.
+			</p>
+		<h2>We became the “sick man” of Asia </h2>
+			<p> AThe economic setback because of the Marcos regime cemented our title as the “sick man of Asia” for the past 3 decades, and it has prevented us from partaking of the so-called “East Asian miracle”. Granting that we have enjoyed high annual growth rates of 5-7 percent in recent years, Figure 2 shows that we lost so much ground compared to our neighbors. This proves that catching up still remains a challenge to the Philippines.
+</p>
+		<h2>The regime borrowed too much too quickly </h2>
+			<p> For the country as a whole, borrowing is not a problem; it can even spur growth. Borrowing is problematic only when it becomes unsustainable, or when the debtor fails to meet its obligations.
+This is exactly what happened during the Marcos regime, whose many “successes” were built on “debt-driven growth”. While it is certainly true that the regime embarked on an infrastructure spending spree, this was pursued largely to justify its existence and at the exorbitant cost of the ballooning of the country’s external debt. The situation was exacerbated by a confluence of external factors, including the Latin American debt crisis.
+The 1983 debt crisis is a sore reminder of the long-run importance of sound and prudent macroeconomic management. Contrary to the Marcosian economic view, borrowing alone cannot induce growth. Instead, it requires deep, structural reforms that transform the economy fundamentally, promoting growth through innovation and enterprise.
+</p>
+		<h2>Manufacturing was neglected </h2>
+			<p> Although the Marcos era is remembered by many as an age of industrialization, it was characterized by “crony capitalism”, where Marcos’ closest allies were awarded industries (e.g., TV and car manufacturing) and surely ambitious industrial projects (e.g., the Bataan Nuclear Power Plant), many of which ended up being inefficient, bankrupt, or plain useless. Such an economic environment led to the neglect and stagnation of the vital manufacturing sector, which, in turn, slackened the pace of the country’s structural transformation.
+			</p>
+
+		<h2>Work conditions deteriorated rapidly</h2>
+			<p>Since underemployment causes poverty, the severe underemployment brought by the martial law era gives a glimpse of the deterioration of welfare for Filipino households during that time. This dissatisfaction in the labor force (especially among skilled workers) would later give rise to the widespread growth of the OFW phenomenon after 1986.</p>
+		<h2>Conclusion</h2>
+			<p>National Scientist Raul V. Fabella once said, “The annals of underdevelopment are filled with chapters on failures due to wasted opportunities”.</p>
+			<p>This is especially true on the notion of a “golden age” of the Philippine economy under the Marcos regime. This idea is proven to be a big, fat lie, especially when pitted against the data collected about that time. It’s quite amazing (and deeply disturbing) that a single man with absolute power could collapse an entire economy to a lower growth trajectory and set back the march of the country’s economic development by decades.</p>
+
+	</body>
+</html>
